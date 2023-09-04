@@ -11,6 +11,10 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.7",
+    "@mui/material": "^5.14.7",
     "@react-three/drei": "^9.80.6",
     "@react-three/fiber": "^8.13.7",
     "framer-motion": "^10.16.1",

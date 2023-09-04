@@ -25,15 +25,17 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import me from "./me.png";
+import me from "./me.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import cryptocurrencies from "./cryptocurrencies.png";
 import gym from "./gym.png";
 import dashboard from "./dashboard.png";
 import university from "./university.png";
+import expressjs from "./expressjs.png";
+import software from "./software.png";
+import link from "./link.png";
+import mui from "./mui.png";
+import mern from "./mern.png";
 
 export {
   logo,
@@ -45,6 +47,9 @@ export {
   menu,
   me,
   close,
+  link,
+  mern,
+  mui,
   css,
   docker,
   figma,
@@ -56,15 +61,14 @@ export {
   reactjs,
   redux,
   tailwind,
+  expressjs,
+  software,
   typescript,
   threejs,
   meta,
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   cryptocurrencies,
   dashboard,
   gym,
