@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState , useEffect } from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
@@ -32,6 +32,23 @@ const ServiceCard =({title , index , icon}) =>{
 }
 
 const About = () => {
+  const [isMobile , setIsMobile] = useState(false);
+
+  useEffect(() =>{
+    const mediaQuery = window.matchMedia('(max-width: 767px)');
+
+    setIsMobile(mediaQuery.matches);
+
+    const handelMediaQuery = (event) =>{
+      setIsMobile(event.matches);
+    }
+    mediaQuery.addEventListener('change' , handelMediaQuery);
+
+    return () =>{
+      mediaQuery.removeEventListener('change' , handelMediaQuery);
+    }
+  },[]);
+  
   return (
     <Fragment>
       <motion.div variants={textVariant()}
@@ -56,11 +73,13 @@ const About = () => {
           and other front-end technologies.
 
         </motion.p>
+        {!isMobile && (
         <motion.div
-          variants={fadeIn("" ,"" ,0.1, 1)}
-          className=' xs:w-1/2 xs:h-1/2 md:w-1/4 md:h-1/4 rounded-full xs:mt-4 xs:mb-6 '>
-            <img className=' w-full h-full object-contain rounded-full ' src={me} />
-        </motion.div>
+            variants={fadeIn("" ,"" ,0.1, 1)}
+            className=' xs:w-1/2 xs:h-1/2 md:w-1/4 md:h-1/4 rounded-full xs:mt-4 xs:mb-6 '>
+              <img className=' w-full h-full object-contain rounded-full ' src={me} />
+            </motion.div>) 
+        }
       </div>
 
       <div className='mt-20 flex flex-wrap gap-10 items-center justify-center'>

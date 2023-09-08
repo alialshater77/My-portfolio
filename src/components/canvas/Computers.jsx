@@ -30,23 +30,8 @@ const Computers = ({isMobile}) => {
   )
 }
 
-const ComputerCanvas =() =>{
-  const [isMobile , setIsMobile] = useState(false);
-
-  useEffect(() =>{
-    const mediaQuery = window.matchMedia('(max-width: 767px)');
-
-    setIsMobile(mediaQuery.matches);
-
-    const handelMediaQuery = (event) =>{
-      setIsMobile(event.matches);
-    }
-    mediaQuery.addEventListener('change' , handelMediaQuery);
-
-    return () =>{
-      mediaQuery.removeEventListener('change' , handelMediaQuery);
-    }
-  },[]);
+const ComputerCanvas =({isMobile}) =>{
+  
 
   return(
     <Canvas frameloop='demand' shadows
