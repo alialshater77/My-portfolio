@@ -7,9 +7,11 @@ import {
     html,
     css,
     reactjs,
+    nextjs,
     redux,
     tailwind,
     nodejs,
+    shadcn,
     mongodb,
     git,
     mern,
@@ -79,6 +81,10 @@ import {
       icon: reactjs,
     },
     {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
@@ -106,10 +112,10 @@ import {
       name: "expressjs",
       icon: expressjs,
     },
-    {
-      name: "mui",
-      icon: mui,
-    },
+    // {
+    //   name: "mui",
+    //   icon: mui,
+    // },
   ];
   
   const experiences = [

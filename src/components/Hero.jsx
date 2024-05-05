@@ -21,8 +21,8 @@ const Hero = ({isMobile}) => {
           <h1 className={`${styles.heroHeadText} text-white whitespace-nowrap`}>Hi , I'm <span className="text-[#915eff]">Ali</span></h1>
           {!isMobile && 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I develop 3D visuals, user <br className='sm:block hidden'/>
-          interfaces and web application.
+          Experienced Front-End <br className='sm:block hidden'/>
+          Developer.
           </p>
           }
         </div>
@@ -43,7 +43,7 @@ const Hero = ({isMobile}) => {
               interfaces and web application.
             </p>
             <button className='bg-tertiary py-3 px-8 outline-none w-fit font-bold
-            text-white shadow-md shadow-primary rounded-xl mt-3 z-9'
+            text-white shadow-md shadow-primary rounded-xl mt-3 z-20'
             
             >
               <a href='/#contact'>Hire Me</a>
