@@ -16,10 +16,12 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import shadcn from "./tech/shadcn.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,6 +32,9 @@ import me from "./me.jpg";
 import cryptocurrencies from "./cryptocurrencies.png";
 import gym from "./gym.png";
 import dashboard from "./dashboard.png";
+import abana from "./abana.png";
+import prokoders from "./prokoders.png";
+import bold from "./bold.png";
 import university from "./university.png";
 import expressjs from "./expressjs.png";
 import software from "./software.png";
@@ -50,12 +55,15 @@ export {
   link,
   mern,
   mui,
+  shadcn,
   css,
+  nextjs,
   docker,
   figma,
   git,
   html,
   javascript,
+  bold,
   mongodb,
   nodejs,
   reactjs,
@@ -63,6 +71,7 @@ export {
   tailwind,
   expressjs,
   software,
+  prokoders,
   typescript,
   threejs,
   meta,
@@ -71,6 +80,7 @@ export {
   tesla,
   cryptocurrencies,
   dashboard,
+  abana,
   gym,
   university
 };

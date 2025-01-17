@@ -38,11 +38,11 @@ const BallCanvas =({icon}) =>{
         <OrbitControls enableZoom={false}
         // autoRotate
         />
-        <Ball imgUrl={icon}/>
+        <Ball imgUrl={icon ? icon : icon}/>
       </Suspense>
       <Preload all/>
     </Canvas>
-  )
+  ) 
 }
 
 export default BallCanvas;
