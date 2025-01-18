@@ -18,9 +18,10 @@ const ProjectCard =({ index , name , description , tags , image, source_code_lin
       scale:1,
       speed: 450
     }}
-    className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full '
+    className='bg-tertiary flex justify-between flex-col items-start p-5 h-full rounded-2xl sm:w-full w-full '
     >
-      <div className='relative w-full h-[230px]'>
+      <div className='w-full'>
+      <div className='relative w-full sm:h-[230px] h-auto'>
         <img
         src={image}
         alt={name}
@@ -28,15 +29,19 @@ const ProjectCard =({ index , name , description , tags , image, source_code_lin
         />
 
         <div className='absolute inset-0 flex gap-2 justify-end m-3 card-img-hover'>
-          <div onClick={() => window.open(source_code_link, "_blank")}
-          className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-          >
-            <img
-            src={github}
-            alt="github"
-            className='w-1/2 h-1/2 object-contain'
-            />
-          </div>
+          {
+            source_code_link && (
+              <div onClick={() => window.open(source_code_link, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                src={github}
+                alt="github"
+                className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            )
+          }
 
           <div onClick={() => window.open(demo, "_blank")}
           className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -53,6 +58,7 @@ const ProjectCard =({ index , name , description , tags , image, source_code_lin
       <div className='mt-5'>
         <h3 className='text-white font-bold text-[24px]'>{name}</h3>
         <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+      </div>
       </div>
       <div className='mt-4 flex flex-wrap gap-2'>
         {tags.map((tag)=>{
@@ -78,7 +84,7 @@ const Works = () => {
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
-      <div className='w-full flex'>
+      <div className='w-full h-full flex'>
         <motion.p 
         variants={fadeIn("" , "" , 0.1 , 1)}
         className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
@@ -91,7 +97,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 h-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7'>
         {projects.map((project , index) =>{
           return <ProjectCard key={`project-${index}`} {...project} index={index}/>
         })}

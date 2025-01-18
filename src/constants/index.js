@@ -22,6 +22,9 @@ import {
     gym,
     university,
     dashboard,
+    abana,
+    prokoders,
+    bold,
     cryptocurrencies
   } from "../assets";
   
@@ -247,6 +250,64 @@ import {
       image: dashboard,
       source_code_link: "https://github.com/alialshater77/Admin-dashboard",
       demo: "https://admin-dashboard-bb8.pages.dev/"
+    },
+    {
+      name: "Abana",
+      description:
+        "A leading company in providing business solutions, digital transformation, and bespoke technology services for both government and business sectors in Saudi Arabia. The Abana Project is a multi language web application built using Next.js 14, designed with a robust Server-Side Rendering (SSR) strategy.",
+      tags: [
+        {
+          name: "Next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: abana,
+      // source_code_link: "https://github.com/alialshater77/Admin-dashboard",
+      demo: "https://www.abana.com.sa/"
+    },
+    {
+      name: "Prokoders company website",
+      description:
+        "Developed my company's multilingual website from scratch using Next.js 15 with a combination of SSR and SSG for optimal performance, implementing dark and light themes, and styled with TailwindCSS and ShadCN for a modern, responsive design.",
+      tags: [
+        {
+          name: "Next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Shadcn",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: prokoders,
+      // source_code_link: "https://github.com/alialshater77/Admin-dashboard",
+      demo: "https://prokoders.com/en"
+    },
+    {
+      name: "BOLD Bespoke Design",
+      description:
+        "BOLD Bespoke Design is a well-established furniture manufacturer based in Dubai, known for crafting luxury interior furniture that reflects the client's distinct taste and lifestyle. I Developed a dynamic project using pure JavaScript and Tailwind CSS, integrating seamlessly with Laravel Blade templates to create responsive and interactive user interfaces",
+      tags: [
+        {
+          name: "pure javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bold,
+      // source_code_link: "https://github.com/alialshater77/Admin-dashboard",
+      demo: "https://bolduae.com/en"
     },
     {
       name: "Cryptoverse",

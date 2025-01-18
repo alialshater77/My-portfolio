@@ -32,6 +32,9 @@ import me from "./me.jpg";
 import cryptocurrencies from "./cryptocurrencies.png";
 import gym from "./gym.png";
 import dashboard from "./dashboard.png";
+import abana from "./abana.png";
+import prokoders from "./prokoders.png";
+import bold from "./bold.png";
 import university from "./university.png";
 import expressjs from "./expressjs.png";
 import software from "./software.png";
@@ -60,6 +63,7 @@ export {
   git,
   html,
   javascript,
+  bold,
   mongodb,
   nodejs,
   reactjs,
@@ -67,6 +71,7 @@ export {
   tailwind,
   expressjs,
   software,
+  prokoders,
   typescript,
   threejs,
   meta,
@@ -75,6 +80,7 @@ export {
   tesla,
   cryptocurrencies,
   dashboard,
+  abana,
   gym,
   university
 };
