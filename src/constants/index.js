@@ -49,7 +49,7 @@ import {
   
   const services = [
     {
-      title: "React Developer",
+      title: "Front-End Developer",
       icon: web,
     },
     {
@@ -129,10 +129,23 @@ import {
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Build responsive, user-friendly, and interactive web interfaces using React.js.",
+        "Optimize application performance with efficient state management libraries like Redux and Context API.",
+        "Integrate RESTful APIs and GraphQL to connect front-end applications with back-end services.",
+        "Create reusable, modular, and maintainable UI components using React best practices.",
+      ],
+    },
+    {
+      title: "Next.js Developer",
+      company_name: "Starbucks",
+      icon: nextjs,
+      iconBg: "#383E56",
+      date: "March 2020 - April 2021",
+      points: [
+        "Develop high-performance web applications with Server-Side Rendering (SSR) and Static Site Generation (SSG).",
+        "Implement dynamic routing and API routes for efficient data handling.",
+        "Optimize SEO for web applications using Next.js built-in features like metadata handling.",
+        "Build multilingual applications with advanced internationalization (i18n) support.",
       ],
     },
     {
@@ -142,12 +155,25 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web and mobile applications.",
+        "Design, develop, and maintain scalable and efficient software solutions tailored to business needs.",
         "Designing and implementing databases.",
         "Analyzing software requirements and designing appropriate solutions.",
-        "Testing and debugging software.",
-        "Managing and organizing software projects.",
-        "Providing technical support and problem-solving for users."
+        "Implement object-oriented programming and design patterns for clean and robust codebases.",
+        "Perform thorough testing and debugging to ensure high-quality, bug-free applications.",
+        "Collaborate across teams to design software architecture and solve complex problems.",
+      ],
+    },
+    {
+      title: "Node.js Developer",
+      company_name: "Tesla",
+      icon: nodejs,
+      iconBg: "#E6DEDD",
+      date: "Jan 2021 - Feb 2022",
+      points: [
+        "Develop scalable and secure server-side applications using Node.js.",
+        "Build real-time applications using WebSocket and libraries like Socket.IO.",
+        "Implement microservices architecture and optimize server performance.",
+        "Integrate third-party APIs and services to enhance application capabilities.",
       ],
     },
     {
@@ -157,10 +183,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web and mobile applications using MERN Stack (MongoDB, Express.js, React.js, Node.js).",
-        "Designing and implementing databases using MongoDB or other database management systems.",
-        "Developing and enhancing user interfaces for web and mobile applications using React.js.",
-        "Testing and debugging software.",
+        "Build full-stack applications using MongoDB, Express.js, React.js, and Node.js.",
+        "Develop secure and scalable REST APIs and integrate them with front-end applications.",
+        "Manage databases efficiently, including CRUD operations and aggregation pipelines in MongoDB.",
+        "Deploy and maintain web applications on cloud platforms like AWS, Vercel, or Heroku.",
       ],
     },
   ];

@@ -21,7 +21,7 @@ const Hero = ({isMobile}) => {
           <h1 className={`${styles.heroHeadText} text-white whitespace-nowrap`}>Hi , I'm <span className="text-[#915eff]">Ali</span></h1>
           {!isMobile && 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Experienced Front-End <br className='sm:block hidden'/>
+          Experienced Full-Stack <br className='sm:block hidden'/>
           Developer.
           </p>
           }

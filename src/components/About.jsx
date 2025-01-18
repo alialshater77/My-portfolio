@@ -60,17 +60,14 @@ const About = () => {
         <motion.p variants={fadeIn("" ,"" ,0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-2xl leading-[30px]"
         >
-          Hello, my name is Ali Alshater and i am a professional React.js developer.
-          I have been developing web applications using React.js for over 2 years and 
-          have completed numerous successful projects for clients in various industries.
-          I am passionate about creating amazing user experiences and 
-          providing innovative technical solutions.
+          <span>Hello, my name is Ali Alshater and i am a professional Full Stack developer.<br></br>
+          I am a fifth-year Computer Engineering student with a strong passion for web development and creating cutting-edge digital experiences. With over four years of expertise in React.js and Next.js, I specialize in building dynamic and high-performance web applications, leveraging advanced rendering strategies like SSR and SSG.</span>
 
-          Throughout my career, I have developed dynamic and fast web applications using React.js and its multiple libraries like Redux and React Router.
-          I have worked on improving application performance and delivering seamless and flexible user experiences.
+          <span>
+          I have professional experience as a Front-End Web Developer, where I focused on improving application performance and delivering seamless and flexible user experiences. My skill set includes backend development with Node.js, Express, and MongoDB, where I have one year of experience creating robust full-stack applications.
+          </span>
 
-          I hold a bachelor's degree, and now i am studying in the fifth year of computer engineering in Damascus University and have completed training courses in web application development using React.js
-          and other front-end technologies.
+          Additionally, I have hands-on experience with Three.js for creating 3D visualizations, as well as WebSocket technology for developing real-time interactive applications. I am committed to refining my craft, exploring innovative solutions, and contributing to impactful projects that push the boundaries of technology.
 
         </motion.p>
         {!isMobile && (
