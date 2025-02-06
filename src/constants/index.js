@@ -25,7 +25,8 @@ import {
     abana,
     prokoders,
     bold,
-    cryptocurrencies
+    cryptocurrencies,
+    chatApp
   } from "../assets";
   
   export const navLinks = [
@@ -356,6 +357,32 @@ import {
       image: cryptocurrencies,
       source_code_link: "https://github.com/alialshater77/Cryptoverse",
       demo:"https://cryptoverse-8zz.pages.dev/"
+    },
+    {
+      name: "Real-Time Chat App",
+      description:
+        "A real-time mern stack chat application that allows users to communicate instantly through an easy-to-use interface. The application leverages WebSocket technology to ensure a seamless and efficient chatting experience, enabling the sending and receiving of messages in real time. Users can initiate conversations with individuals or create groups for chatting with multiple people simultaneously. The application allows for easy sending of files and images, with the capability for recipients to download them.",
+      tags: [
+        {
+          name: "mern stack",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "zustand",
+          color: "green-text-gradient",
+        },
+        {
+          name: "socket.io",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: chatApp,
+      source_code_link: "https://github.com/alialshater77/mern-chat-app-server",
+      demo:"https://mern-chat-app-react.pages.dev"
     },
   ];
   

@@ -31,6 +31,7 @@ import me from "./me.jpg";
 
 import cryptocurrencies from "./cryptocurrencies.png";
 import gym from "./gym.png";
+import chatApp from "./chat-app.png";
 import dashboard from "./dashboard.png";
 import abana from "./abana.png";
 import prokoders from "./prokoders.png";
@@ -51,6 +52,7 @@ export {
   github,
   menu,
   me,
+  chatApp,
   close,
   link,
   mern,
